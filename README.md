@@ -30,6 +30,14 @@ optional arguments:
 * [ミリアル](./audio/millial)
 * [榛名](./audio/haruna)
 
+### crontab
+
+```sh
+$ crontab -l
+SHELL=/bin/bash
+0 */1 * * * /home/kazuki/scripts/jiho/cron-jiho.sh
+```
+
 ## 利用した音源
 
 * ミリアル @ [CoeFont Studio](https://coefont.studio/)
